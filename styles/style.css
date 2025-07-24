@@ -114,3 +114,60 @@
     color: white;
     border: none;
 }
+/* Flowers Card End */
+
+/* Discount Section Start */
+.discountSection{
+    width: 1140px;
+    height: 423px;
+    display: flex;
+    border: solid red;
+    margin: auto;
+    margin-top: 65px;
+}
+.discountLeft{
+    width: 30%;
+    height: 100%;
+    border: solid red; 
+    gap: 35px;  
+}
+.discountSection img{
+    width: 100%;
+}
+
+.discountRight{
+    position: relative;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    border: solid red;
+}
+.price_drop{
+    position: absolute;
+    top: 180px;
+    right: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.discoundPrice{
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+}
+.price_drop a{
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+}
+.rightImg{
+    height: 100%;
+}
+.discountRight .rightImg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+/* Discount Section End */
