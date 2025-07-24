@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Navber Start */
+.navbar{
+    margin: auto;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1140px;
+   border: solid red;
+}
+
+.divition{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.divition a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+/* navber end */
+
+/* Banner Section 1 Start */
+.divber{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 1140px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border: 2px solid red;
+}
+
+.leftSide{
+    width: 50%;
+    border: 1px solid blue;
+    padding: 20px;
+}
+.always{
+    font-size: 60px;
+    font-weight: 900;
+}
+.fresh{
+    color: orangered;
+}
+.dialogtext{
+    font-size: 23px;
+    margin-top: 15px;
+}
+.rightSide{
+    width: 50%;
+    border: 1px solid blue;
+}
+.rightSide img{
+    width: 100%;
+    height: 355px;
+}
+/* Banner Section 1 end */
+
+/* Our Plants Start */
+.banner3{
+    width: 1140px;
+    text-align: center;
+    margin: 35px auto;
+    border: solid red;
+}
+
+.our{
+    font-size: 60px;
+    font-weight: 900;
+    color: orangered;
+}
+.plants{
+    color: black;
+}
+/* Our Plants End */
+
+/* Flowers Card Start */
+
+.cardSection{
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    margin: auto;
+}
+.card{
+    width: 270px;
+    height: 485px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 25px
+}
+.card img{
+    width: 100%;
+    height: 323px;
+}
+.flowerName{
+    font-size: 22px;
+}
+.card button{
+    width: 100%;
+    padding: 10px;
+    background: orangered;
+    color: white;
+    border: none;
+}
