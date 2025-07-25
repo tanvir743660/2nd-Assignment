@@ -116,6 +116,37 @@
 }
 /* Flowers Card End */
 
+/* Flower & Plants Lover start  */
+.flowerStore{
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border: 2px solid red;
+}
+
+
+/* Flower & Plants Lover end  */
+
+/* Latest  Deals start */
+   .LatestSection{
+    width: 1140px;
+    text-align: center;
+    margin: 35px auto;
+    border: solid red;
+   } 
+   .Latest{
+    font-size: 60px;
+    font-weight: 900;
+    color: orangered;
+   }
+   .Deals{
+    color: black;
+   }
+/* Latest  Deals End */
+
 /* Discount Section Start */
 .discountSection{
     width: 1140px;
