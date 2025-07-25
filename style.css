@@ -1,11 +1,11 @@
 *{
-margin: 0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-/* html{
+html{
     font-size: 62.5%;
-} */
+}
 /* Navber Start */
 .navbar{
     margin: auto;
@@ -14,7 +14,6 @@ margin: 0;
     justify-content: space-between;
     align-items: center;
     width: 1140px;
-   border: solid red;
 }
 
 .divition{
@@ -38,12 +37,10 @@ margin: 0;
     margin: auto;
     margin-top: 80px;
     margin-bottom: 80px;
-    border: 2px solid red;
 }
 
 .leftSide{
     width: 50%;
-    border: 1px solid blue;
     padding: 20px;
 }
 .always{
@@ -59,7 +56,6 @@ margin: 0;
 }
 .rightSide{
     width: 50%;
-    border: 1px solid blue;
 }
 .rightSide img{
     width: 100%;
@@ -72,7 +68,6 @@ margin: 0;
     width: 1140px;
     text-align: center;
     margin: 35px auto;
-    border: solid red;
 }
 
 .our{
@@ -133,7 +128,6 @@ margin: 0;
     margin: auto;
     margin-top: 150px;
     margin-bottom: 80px;
-    border: 2px solid red;
 }
 .trustedBadge{
     position: absolute;
@@ -174,7 +168,6 @@ margin: 0;
     width: 1140px;
     text-align: center;
     margin: 35px auto;
-    border: solid red;
    } 
    .Latest{
     font-size: 60px;
@@ -304,6 +297,7 @@ footer{
 }
 .side1{
    width: 25%;
+   height: 178px;
 }
 .side2{
     display: flex;
@@ -327,13 +321,16 @@ footer{
     color: gray;
 }
 .side4{
+    display: flex;
+    justify-content: end;
     width: 25%;
 }
 .side4 i{
     font-size: 20px;
 }
-
-.mediaSection{
-    
+.side4 img{
+    width: 70px;
+    height: 70px;
+    padding: 15px;
 }
 /* footer End */
